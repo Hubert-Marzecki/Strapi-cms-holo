@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "categories",
+  "info": {
+    "name": "category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "icon": {
+      "type": "string"
+    }
+  }
+}

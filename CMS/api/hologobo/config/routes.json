@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hologobos",
+      "handler": "hologobo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hologobos/count",
+      "handler": "hologobo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hologobos/:id",
+      "handler": "hologobo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hologobos",
+      "handler": "hologobo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hologobos/:id",
+      "handler": "hologobo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hologobos/:id",
+      "handler": "hologobo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
